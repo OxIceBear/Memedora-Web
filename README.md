@@ -1,4 +1,4 @@
 # Memedora-Webleak
-Memedora | the shittiest cheat provider i saw, aimware is better, site got leak, let the dogs bark, lion is still the king
+Memedora
 
 # Leaked By OxIceBear & Smexy
