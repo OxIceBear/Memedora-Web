@@ -1,0 +1,62 @@
+#media-gallery {
+    padding: 50px 5%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: var(--glavny-color);
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.video-item:hover {
+    transform: translateY(-5px);
+}
+
+.video-thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 40px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 20px solid transparent;
+}
+
+.video-item h3 {
+    padding: 10px;
+    font-size: 1.2em;
+    color: var(--glavny-color);
+}
+
+.video-item p {
+    padding: 0 10px 10px;
+    font-size: 0.9em;
+    color: #ccc;
+}
