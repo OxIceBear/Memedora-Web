@@ -1,5 +1,5 @@
 # Memedora-Web
-Memedora site inproved
+Memedora site improved
 
 # Why?
 Well, im bored, so i decided to make this(for context, i took the website from [memedora.club](https://memedora.club))
