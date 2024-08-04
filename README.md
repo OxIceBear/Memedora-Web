@@ -1,4 +1,2 @@
-# Memedora-Webleak
-Memedora
-
-# Leaked By OxIceBear & Smexy
+# Memedora-Web
+Memedora site inproved
